@@ -1,288 +1,1038 @@
 [[faust]]
-arch = "aarch64"
-git-tree-sha1 = "16abfeeeada4ef8df55088a4cd0a3ea1e6487391"
-os = "macos"
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c02f70f64feb78310b31a82c8f83d48d9d7449ac"
+lazy = true
+libc = "glibc"
+llvm_version = "11"
+os = "linux"
 
     [[faust.download]]
-    sha256 = "d14369a4acb601e5c11f5e18a59080adc69425225ee8f1680b94d0462e597888"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.aarch64-apple-darwin.tar.gz"
+    sha256 = "8aa44ff350cf75d3f32347aa64ed3b170f9dee46310ae06264df440d1fdc656b"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cf95f4da88b616f4b85ee0273649756eeb592f21"
+lazy = true
+libc = "glibc"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "10301aa996d9b8f119f335dd365c27b2c06c3057fd35cc2b664cf93f90c6796c"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "429a838ee5310b5d1ff21f504c65bc3ab1a4e2eb"
+lazy = true
+libc = "glibc"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "eda3b3f8dd1a96d9e12cc66768e2e626bd798137c8af8fcd2bd1e50e43120f89"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bff4b56c657b7ce0bfe25a89f891a5c394295509"
+lazy = true
+libc = "glibc"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "4b153d055156d6654d5c62f19385412e456d0a73ff02a093c303714edd9816d9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d849f061be7e5bc2d412fbe6c3dc83de006c2cae"
+git-tree-sha1 = "723d807f04ddbc033cbe3718a7ca83f5c25f49b6"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "7b89f42bddcf454350847336e749c14389ce759635e59d75c11ec2c0b4aaed8b"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "0b5feedc303e0a30386c4d5093ed2b9d4e5cd0dcb9eabf320cb241cda61588ab"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx03-llvm_version+11.tar.gz"
 [[faust]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3bfbe4af7be02114db6bbdf5e931d36d3afb5f09"
+git-tree-sha1 = "7857946e8ec155a3e62dfda430b3c504dc76bb26"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "e83c24f1fb24800db8e4fd01728176c672e42dff211524a9117de90e8481c5a9"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.aarch64-linux-gnu-cxx11.tar.gz"
-[[faust]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "27a0b4424a5d917933d3abbf6733a318d94a7909"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "e7880554d75b0478ac17ed115da4d8ef75883c164c84b0c7ab5c795373cbd805"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.aarch64-linux-musl-cxx03.tar.gz"
-[[faust]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4819625fe906bd40b57abc5b1f69a2bd64bf9313"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "2d030d314eb34ad26722b1015a630ba933420d8f62f614692200935724e23720"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "99a986a82a1e1e2b4909bfb7cee597f6f17624324a10da756dff24e5c6236a14"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d381d579aa86dd0f0f338b7d6193a2a77611a7a4"
+git-tree-sha1 = "7b0d27765720c179f0ac7fedb97e5e097214c058"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "9091c791c4f743e1564990b2b9b613e588119f767270ff271602879e62736584"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "aac020897ad54d3d478b54ab517cca3e9908ed324d78ac4143d3b2f84335c338"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx03-llvm_version+11.tar.gz"
 [[faust]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e44a56a2f9be2afb0752aee6f71a35c31ea54209"
+git-tree-sha1 = "1c3be4505d847fc7c104745911a560f530c3d5a5"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "2bdb6e162344db6a7def2ee5b6cc4ccec0ee85b04bdd0ff452a27f0088c2b543"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[faust]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d022b23972dcaafdb9e98a610bde6a0199642c76"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "6304ac2a2901e89c5f4aad8580da36a33f7c86d90a2edc26c8bbe72381162a4f"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[faust]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6ab1c231539ffedbda9211be0c29e4919af4e8b5"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "f35f9e3a530abfe4ef42531a234342af2e8a1bbea86b4b5af9c08e30b4dac2b3"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "71594d514af63b40f7b3ca4c6c4ed8de8cdbbea3d902a79c4f48864d9f816fc2"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d0970f729e503bb86fbd63c93bfd29d3fc9dfd0e"
+git-tree-sha1 = "f3c4787b8a45969f226cd9f6d232944e9aedf6ce"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "e5a3e7e74738271ab6cd71c4e5ecabf9121d6ac8ebd90f0807950a9c121d1746"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "130634acdee90cf41ac328e41b6eb58454b0582d64a4ebfb429788ae39d18e2f"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx03-llvm_version+11.tar.gz"
 [[faust]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5b21e1e1c7a80ad09253a418d692484a3802fcc3"
+git-tree-sha1 = "1531e451a11af853a4065475936e0d0046cc1367"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "0e5770b974bfb52b7d6eb6e7455f5958befd492fc32acfff97f6cf1d410815e8"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[faust]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ba280811f0613ead9e3cf790275e0265ae314686"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "3f764ee403de04ec3af61feeeb98ca6efaeec4dd309acb851da0238a98da0a12"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[faust]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6fc62093148afdbbe9f47ba7eb341908fa0d8ec1"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "fd6e105bfd110f523f31b299404125001f999400c4406f7260b18b4dc5efc960"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ab2c6d4d29f9c48fb4a80de9ec34de339732c895"
-libc = "glibc"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "33caf62b00f3ec8509d3e5bc3c34714de1e487c39c02456ba28e55ffdd822359"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-linux-gnu-cxx03.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "97916f2430bc41b19a3d941d4c7496bd6a5ef4b8"
-libc = "glibc"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "d91ae4a78be1596f1efb421c7594d515f609e33579898f21d410a56441ee193e"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-linux-gnu-cxx11.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "984f368b25bc17d823c68b6c5f9ff4dd7e50df1d"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "7480bfd31a795e43972eb8f7d6d22b5df6c40dd86f5154493b595f6123af3964"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-linux-musl-cxx03.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d12759f2e77c991c0ce688003850b7ed31438c43"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "371578a858b50d2c2d3689a4537aeca16f5b9c97af4e0145ec5a5d1332af16b0"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-linux-musl-cxx11.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1d2c48c39decd89e1fb909075d15bac9e79f7a8f"
-os = "windows"
-
-    [[faust.download]]
-    sha256 = "516d20ad464c08ebee4f1245ad071b45a810fe81445b29bd895d33955823fc1f"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-w64-mingw32-cxx03.tar.gz"
-[[faust]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3c94f66e24d1077b276de574ad0a12aeceb4761d"
-os = "windows"
-
-    [[faust.download]]
-    sha256 = "d37789fc2d136a067fbe45a642a563e487f735615a50b7bbeb8edb7e6c9f9232"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "4e8d7e8e24422e70c09dd022569ea3beeee6d3d416ae5387e1df27e41992dbbf"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "eaab9471082242305bceaa04533ec83120d18e89"
+git-tree-sha1 = "df84b99ffd2488616e6802eef35e44c232aa1534"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "c6ab6a728065bf6174eadf53e9eadebb4e89b860ac07311a2bda5873a6c8a2d3"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "fd48ff8aa37f5de30053c33c4bb9482ca34c7596b28c18d5b365ab1f617ebb51"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx03-llvm_version+11.tar.gz"
 [[faust]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e609601ed8583c5f165796ddeed3afbcf4b82e59"
+git-tree-sha1 = "beae375fd053d75c2278d32ae92a8e08e76c6475"
+lazy = true
 libc = "glibc"
+llvm_version = "11"
 os = "linux"
 
     [[faust.download]]
-    sha256 = "0088d79674d14df744083e921d36f5921127ff2713f42bdd9097767c94bb3dea"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "4f57b8f19efcc2d31da687572a8f96c69a655f0854cbaadfbe85dedb40d4d872"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ad9ae729f66e6d6a6188c7acb37e17c013dfe067"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "8f69af8452868e82745c13d661f1fe8c61a89b89f88fcc35956a431cc930b54c"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e5ee3de9e758dfb10febfb1ba3558f14a3e98302"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "036f9b4c5017be05b5911ce2097d36300a6250e24be1529e9210dbd0b47e0634"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "x86_64"
-git-tree-sha1 = "1c03f3c4d59ec15a41195d63e6cbf88ae205d539"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e98941a38b6d8c337d3d618235fe1763cccc45eb"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "c08c4e1bf43eb642e62f2d340d8d6ae02c580e29b861d0c7ca557a46f4a97cbc"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bdb95acddcf472cd98ba3e305ccfa81afa1748aa"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "15aaf5568f9576054e1963e6d078b0c0aac075a6d186d32d68961b6a7ebb6ed9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f9629b48d8c595c369a23fb3bd0d3b022e119d43"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "8d5126fdbe89cfeebb76ab484e8ec031826c89a99e161f814400fa3f4f57c2c6"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "539cbbe544227812b140a15cfc66d313a23cd034"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "4f048d009fc7d9d24d692481b5f2cf903cac77ceee7c78dbda7278ae5ef4685d"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7d3e6c06d28a175b5c09cf628e54fe848a7567f6"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "93fa03ff311c960c835a9cbef40a5ca6d098767f2969e3573de8f6d3c4695f7e"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dc8a0925ca54f0784733f0e9b2bf8fcf19ec2695"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "d3b8b71e36a001c82d7290d7aceedfa7a83e6f095b44c75cda61dacfac1cb700"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a3a326d048cbfb99b23457c927299b689791ad81"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "5097b6a91f89b45ade4abffed309d9ee9f0c199923d430872c3be24d561ca892"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "64a88be0c4a508967acb8c658c4ecb10affa91e6"
+lazy = true
+libc = "musl"
+llvm_version = "11"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "4309a2506857aaa744893f43c52059c68e188b8d76904cf823f2017cf55ee0e6"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "x86_64"
+git-tree-sha1 = "75bea4688e7767247c1d80438394145509d85d82"
+lazy = true
+llvm_version = "11"
 os = "macos"
 
     [[faust.download]]
-    sha256 = "c1a2a02141dcfea43b5cb9f1d26397ca2b50b0aa047a0ffb82ee946c4ddce414"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-apple-darwin.tar.gz"
+    sha256 = "7ee44d6ab1315ff1c8475c3d37d733c7a41d7abc9dfa3cf67305896bbaf3ccb5"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-apple-darwin-llvm_version+11.tar.gz"
 [[faust]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f78dc1045330222c7998b1fae23530f283271cf4"
-libc = "glibc"
-os = "linux"
+arch = "aarch64"
+git-tree-sha1 = "127fbab999e906d4dd93d21c543f9b9c77629276"
+lazy = true
+llvm_version = "11"
+os = "macos"
 
     [[faust.download]]
-    sha256 = "4a513297ab22be0f0b751868ec23a30349b29334c3c4fdbab4d3599459725de3"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "f1a9675a4ded510e79ea87c39065e7abe935fe9f08e3cbf5bcc82e8ac985eeff"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-apple-darwin-llvm_version+11.tar.gz"
 [[faust]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "da33da362bbffbada9bc5c10551c85231d3c94e6"
-libc = "glibc"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "51e9c02a7e8497d2719f4c91456464dbef74ca2e17b9660064b2ed5e25f29dfb"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-linux-gnu-cxx11.tar.gz"
-[[faust]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6b5852aeb3f4669c841cc4fae1440fd041e9d459"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "88e5b0efd1d5c8551be6dfee600b31542d6d93699df79cb3bcd1d0f7735bdc38"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-linux-musl-cxx03.tar.gz"
-[[faust]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6a50e3b2b6b2a95753761d836f01402f649d5aea"
-libc = "musl"
-os = "linux"
-
-    [[faust.download]]
-    sha256 = "8f10afdb4c922fb2a2d9c146ae1ae6f67fc8cf8db12eba5c79490f0423f5b2e2"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-linux-musl-cxx11.tar.gz"
-[[faust]]
-arch = "x86_64"
-git-tree-sha1 = "70fb23e7318683158440d2f9d1f95a92daef5892"
+git-tree-sha1 = "ae00e7b68078a79a39e37668b49249085da74d2e"
+lazy = true
+llvm_version = "11"
 os = "freebsd"
 
     [[faust.download]]
-    sha256 = "3351cb061ef2aca5207f0559f7fd5142064894a62704b92fa3df6166d0664de1"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "49179be04240695cb6546cf838f8c595ccccc5bfb36280038a74c11ab44c9ce1"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-unknown-freebsd-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6b417d7b777ad312168f1245db5b67f46ebad20e"
+lazy = true
+llvm_version = "11"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "120179160f40139d00594c408795eb240d1b558673de552431ea2b6fe7f14c14"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx03-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6d1e113317a41d2c6d00f743a24db80088375667"
+lazy = true
+llvm_version = "11"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "e6733f434f2ca2797d53199c7fb6620093269a84d4c31e1579490bb099aa4a6a"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx11-llvm_version+11.tar.gz"
 [[faust]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "66c49740eef94709fdaedecca674ee200a60c535"
+git-tree-sha1 = "91919cb7301dd3f76668fd28cc71812b811a9edf"
+lazy = true
+llvm_version = "11"
 os = "windows"
 
     [[faust.download]]
-    sha256 = "2e2d4f4a954cff010ad869489fe9c47a61b86f7dff079e9310ab3bfbaef9f027"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "e272e549aa1ffbca397de1d55cb9c904bd9589eed0e4d8cb82ac5ea50dfdebdf"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx03-llvm_version+11.tar.gz"
 [[faust]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bd98e0fb80e74dfa6cf7f5bdd2d2cbf2578c52f3"
+git-tree-sha1 = "7ce2e08bb1c664d4d7f7650c45040b81dc59b462"
+lazy = true
+llvm_version = "11"
 os = "windows"
 
     [[faust.download]]
-    sha256 = "a4db676067138a7c230fec5f015057eba2ab0ee759309771ec43e454cdf5b0f5"
-    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.32.16+0/faust.v2.32.16.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "280b19ecf662693b07fcb81b85461bbca64cf8f74af1cd812c66c9e9fbb8e350"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx11-llvm_version+11.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2d5696e27958ebcecf5560ff36b043db0870a256"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "fb32e8802271cf6ea7e425a19c0a9119c0725ed940f89a3f19ef035074bb598a"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e69f4af237c840eea47f8da72de2a1c707f0c2d9"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "2c7c8d16632b454787ab7ebdd587aaa688e2e9b42ca1d2e66a073287c47a04be"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b74548ddf28c6c42d94541dbb709c31c89fff05e"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "c04a67b24914d70bf12192b4fdc0b0e8cb6c54a67eedfc8ea42eb5671e64db31"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0bc64a278c8788a5b0c64f31df58253968dbd380"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "2a485de166a8d80583134bb8e1430f0e8b49952d088c2a677ca78c10b382bbd6"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c859151df3833abd70ddd7954c306010f475308e"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "7dabff5b6c95a6ae138a2635c766f33b7c7a856c6ea4f1f27a223af09d309196"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9c22961b067538be50ece3abedf339b282b4534a"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "c93251639811d18b150e447bbbe47e60d70fbd5e81974a6f2f371504eefe10be"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9911d1f97f311d9b440d92d25232a80fc0b4ec8b"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "f0926186892624d40e760ea97868886fd35da483e6f06fa6094af689fd8509bc"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9119c22e06932b006494784ee8b15191038cf288"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "ac689bf7450200c0f1d0c803408cb0f4b163d2096030fe0fc15b5680d3d6ec24"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ae4ee9575aa9f003f6cc1195ccd0e8bbd75f6805"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "ee9aa4c6d54c8be6ce9d59028a2a3b2e1a70a1da4d3e52dc8dfc6d7db360b897"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a9c06aa8f3ddf4ea748dffba9e2c5514f6e97a0f"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "1c0a78e40ed274463e69ed9e5a06af65f94e56db9464283bfd8a53f6845ea63f"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "de813b91cc4f37c546dd7b820c65f31d544c1e36"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "e091da326d5cdba3927a95d3f331f14f7e0f19c554210142cdffa78ce19ee6cf"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9131b5b8c82df98cbe578387ddfebc2c172a0a9a"
+lazy = true
+libc = "glibc"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "a7e8f3abf5b3bfbb862da242952abe61aef48808f2e7c629882b4f5ecf630f18"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8d92a5d5d0da5c9388e459b9ea0511ca959338ca"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "11a8ba13482e3a1b2583a21b21383795f998a43c293a329f3ea5b82760b431b9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "02148f8acc6097952ee840d0e70aae959ec9b194"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "806c0b7cb3bef28d41fcd8101b5ba8d7baedd116889a2aa261a5f98432574d34"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f767b3f501bcbfe785c52084f004a3fcd7c4f26a"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "7a2828d3273e46f6ed2c94987c0cd4deba8e68f3750338705faa411946c49ef9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1b7cdfb9770aff58282d0cc3874a5deba3f409aa"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "6d719f366e2466f3ec9422c0dfc4d4361bddc0f34a16a28cce9e8c6c5b16f1e1"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "456e672c2833586bf6eb021be31249824d7c4dc9"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "83dcc9cfc4731ef3d9a82010bc70d523e68fac8093f9bff7e922aa90f4f75631"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1f3a95d5e4f787e3ece1206eee78d9e28c812696"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "6cbd9bc5fcb5f6b577a949d1038d713ce5ff1018ec37f70a55dabff84cb5029d"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "55779c7f5a54d184d334a06cd079f599cf5e8884"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "6ded491222e32f583eb6b8982d1291c8c26f8079fa96a5b2df067123d21bfde9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b147c28ac31259b95e7e8dd08da3232bcbe17180"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "48d14b808c0b1294574d103ff0eb3e8e47140009530eda676a588829b9b87d0c"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fd69a1b239fc5e90a987fa8ecf05197be4328bc4"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "d2b446ff3f7622d6098044bcb055685e5702aa5d6277472ee487c982e6ba899f"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9144a50094e1d9992e5440ade35263cf3e854833"
+lazy = true
+libc = "musl"
+llvm_version = "12"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "3a69d5483f8194a0692eeb839b39b7bb045d9e65ed2f065162195e4e5bc6bc73"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+git-tree-sha1 = "d8d509e339135a04297c5189a2bd1961cad2c136"
+lazy = true
+llvm_version = "12"
+os = "macos"
+
+    [[faust.download]]
+    sha256 = "f660585d3a3ec3103455a813dce41cdbfec86bbfb8d8a54a0e0544d1fd0f0e01"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-apple-darwin-llvm_version+12.tar.gz"
+[[faust]]
+arch = "aarch64"
+git-tree-sha1 = "71b19d9cc9132bb9a18aea10594cdb96933705aa"
+lazy = true
+llvm_version = "12"
+os = "macos"
+
+    [[faust.download]]
+    sha256 = "5d20034146041bece885a57a628ec2679f2d00db736757b5ef798d5fe4eb69e4"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-apple-darwin-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+git-tree-sha1 = "0ec34c6bd9a6685dbe362c2ea400f897452aa6b9"
+lazy = true
+llvm_version = "12"
+os = "freebsd"
+
+    [[faust.download]]
+    sha256 = "9c3146fbf8d07f86758e09e6856f9782b85986c025c43c968398cd30f037ad8d"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-unknown-freebsd-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cee88a5893a9425a5f0e61e8f273bba83daaa3c8"
+lazy = true
+llvm_version = "12"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "facd64fa2269e14bd9d9efdc67f9e45f7634056c2909845a62b2925bfcfe49b8"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cf231867effaa682a0f874c58d046fde9fc40d11"
+lazy = true
+llvm_version = "12"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "dd528ec2344279be62c4a5e8f1db205dc42d478a48a77eb910dda1f42e3babf9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4939ea8879d4a0a7a9c14777ebfaf2603bc4f8b6"
+lazy = true
+llvm_version = "12"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "5cccc9e411bc36ec5cabe53e310955f21a4e4e5adbecd0b9eb0df55a7ffbf292"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx03-llvm_version+12.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5011c89cf01b465ab3ec99f3868ea96366d48dd6"
+lazy = true
+llvm_version = "12"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "a6777d0b8ef3c84b47aa752c58e1e5201402b241e6fa736af24dab8584cc822b"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx11-llvm_version+12.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6f74aa375335bb386575594655925643fe01fcbe"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "53e76a8f6417423e3c0c5bf7838ee94113209622f908ab4e9b5194c36e4d7ff3"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1ab9ea2431e885b16fa22bb4134b16efe6ccde17"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "65fa3ac814bf344abb0fc9c3e6107e84c9db314e1ccc82461b5cd92b84217661"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-gnu-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b909a732437bd04c85811bbc610bd82b4b08e1a6"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "bc3f96fcb5d60b8f13faab31d11872669fbd96a34700a0957d80a3f00ad54f4b"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ba504756a27ae6687d5bda1187c05281849b61ff"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "8a8dec29ba408ef87a11c6261feff639a7f0626bd2a4d113403184b5cac84de4"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-gnu-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8517b094740226333d6bb88aa3a649f4a3976eac"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "14aff778999a7f3a7db662ef401a0dc98d0f96534a7db66e00db5fabf284c88a"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "65cbff87d51632e22c87686beca647ad99937d62"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "31b9df29fd448f85e04e341e8e61dd57603310aefd6a206286b515e47a4a2a84"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-gnu-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "32ea64f69df7eddd64a54d635beaa2ded289f684"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "1909df17599172f7097e11ba437bf73fcabdcfb77fbabc6e85cf2060c8383206"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a6a5ce3a3bd5348056a54dbda5d2a57afdf07402"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "97bf33885c0d0941c139afd6a8f0239951ca7b36bafa652d0fefe8a7a5b12893"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-gnueabihf-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f9d315e9ed09be3da92e4c4fb576fb4beda76065"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "9605f553f4e5d1ebaeeee9659162de5a5b2af020ccaf11cc9bfd281ac3f51aa5"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4e9f97ff7f301172aa8e54ff1a19d38aeae59705"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "a1b823a9dea613bdd7a5d113dee2c4322987d8f25495626da34974b43f8e8767"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-gnueabihf-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "32607d855c824a636f377a115e454c1710b9c3ce"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "db305975e9a5f71313d6fa0b4f922d4545b035610df5ef20c3ded498dfe8e650"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "10d8ec5c3d045315c9bb600ea300476b6862900e"
+lazy = true
+libc = "glibc"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "ccf1b56669df4e631dc750633c21d24b8c8f371f2ec76d28c12aafe8f59f785a"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.powerpc64le-linux-gnu-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e757d4ffe9f1a2bb244a03dc02d63ed0b55d0128"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "5814e04b62ef41f4d10b14837d898bafb02c9d109d87155102648781a6c8bb58"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b0a21a67e0685e202b8c786bd6150d58c900aa3e"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "6c2e8ae1ddd80053c8321b6283ac4650914ba9087cec0a35c8a992f5d743757c"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-linux-musl-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "60297eb84ddc21a5e77c0e63b8291443ed66834a"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "f4edc380e04e64c56dea17942a88836ab288699176543d5c5ca93ce02acf2676"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "27017776a5a627d274c0045a0a9d1c92d69e08fa"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "24af0e4a85197b1cc4ad7e90d85d11bb6d1897effe8e5c7b1a304994519414ce"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-linux-musl-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "53d2a3866a7abf897f00b909a1e103943923e5a7"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "7f5917dc8a9223497720696086018dbc69d2a8ff076fe8451abf56994e47aaee"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8347bc08510f0bd5c0c30aa00b4c35a687bc2210"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "8c844276bdbe42d64496ad059afad33e1ea757cf078b04fadc94453f3cd0ff04"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-linux-musl-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c4e34e14b7516a2ad37dfad1ae9b91901366c7b4"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "e8d824c161ec0e071688b9504bc51b7792c432603ad92fea38881b0058210c5b"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "de3a144950c0f96fdc474c4e3799ca52d272f55e"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "4ef3c03d24ff850418aaad399ea2418ae9abb44ca27e59de9b437bac29be30d9"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv6l-linux-musleabihf-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "613650f9457126fc0d479d145f9b45c5a695dcd6"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "f537759ee9052b42cb83609522cb58ab7b6f1cad12b03efdf83550f3d5761172"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dec65f2dadeccc716ebf33dea56a13ea1fee67b6"
+lazy = true
+libc = "musl"
+llvm_version = "13"
+os = "linux"
+
+    [[faust.download]]
+    sha256 = "47e2109c7c6e98f53a29fa2992f0c9cab8551ac1b2fcf3975bd83e3f3724ddba"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.armv7l-linux-musleabihf-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+git-tree-sha1 = "60466c9e86d6421d531d69b7c2da3072e15cd8a6"
+lazy = true
+llvm_version = "13"
+os = "macos"
+
+    [[faust.download]]
+    sha256 = "26292eae38c7b83e0c5d4ebd0c20404b3a9aa947735431d2fe96fa3a95ef1986"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-apple-darwin-llvm_version+13.tar.gz"
+[[faust]]
+arch = "aarch64"
+git-tree-sha1 = "df310867f13fc2ffbeb308a3abd55e409309dc20"
+lazy = true
+llvm_version = "13"
+os = "macos"
+
+    [[faust.download]]
+    sha256 = "bae961e5a16880b45ecc5bc4a3b071d0890605cf73de8e079e0b898948f27402"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.aarch64-apple-darwin-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+git-tree-sha1 = "c7f42579828caf15a121db35864377d9bf817f33"
+lazy = true
+llvm_version = "13"
+os = "freebsd"
+
+    [[faust.download]]
+    sha256 = "ac35b1dbe158ee9fb4f452a12fa7db12edd034a637c08b2a75c98df36cd4a14b"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-unknown-freebsd-llvm_version+13.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ffc7bb45dffd425bf4f7f7afaa8c03dfe997b620"
+lazy = true
+llvm_version = "13"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "56a9087c296703245f6ad73f1bbf11582cbc02c672ddceccffd5b7de5a983fa7"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cdec4ffb392d4aea0734de9ba935b62b36116f3e"
+lazy = true
+llvm_version = "13"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "52f82acfdc85d9ffd6048d746765147a1185137716aa0b4e88f45b45472d0e40"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.i686-w64-mingw32-cxx11-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "71c08a36ae4d0efacbca6577d7e645512cc0205f"
+lazy = true
+llvm_version = "13"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "f9d2f4605ae412ea1687fdf2e873ed6806c5b1edd15a182ed7b8b9c101623203"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx03-llvm_version+13.tar.gz"
+[[faust]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5fdc09389949d3dc9ae21d723f77638e9e0b1178"
+lazy = true
+llvm_version = "13"
+os = "windows"
+
+    [[faust.download]]
+    sha256 = "fe5626a7edacf6b69fa77220e9952ee2bc4a90f1a09b1b8f536c4939f9ff0282"
+    url = "https://github.com/JuliaBinaryWrappers/faust_jll.jl/releases/download/faust-v2.40.10+0/faust.v2.40.10.x86_64-w64-mingw32-cxx11-llvm_version+13.tar.gz"
